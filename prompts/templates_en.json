@@ -1,0 +1,360 @@
+{
+ "relations": {
+  "P6": "head of government（行政府の長）",
+  "P35": "head of state（国家元首）",
+  "P488": "chairperson（議長）",
+  "P286": "head coach（監督）",
+  "P169": "chief executive officer（最高経営責任者）",
+  "P127": "owned by（所有者）",
+  "P54": "member of sports team（所属チーム）",
+  "P39": "position held（役職）",
+  "P108": "employer（雇用主）",
+  "P102": "member of political party（所属政党）",
+  "P69": "educated at（出身校）"
+ },
+ "subject_kind": {
+  "P6": "place",
+  "P35": "place",
+  "P488": "org",
+  "P286": "org",
+  "P169": "org",
+  "P127": "org",
+  "P54": "person",
+  "P39": "person",
+  "P108": "person",
+  "P102": "person",
+  "P69": "person"
+ },
+ "templates": {
+  "P6": {
+   "method_q": "Who is the head of government of {S}? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, who was the head of government of {S}? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the head of government of {S}. (Answer with the name only.)\nAnswer:",
+    "The head of government of {S} is",
+    "Can you name the head of government of {S}? (Answer with the name only.)\nAnswer:",
+    "Currently, who is the head of government of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, who was the head of government of {S}? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, who was the head of government of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the head of government of {S} in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Who was the head of government of {S}? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Who was the previous head of government of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, who was the head of government of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the head of government of {S} on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, who was the head of government of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where is {S} located?\nAnswer:",
+    "What is the history of {S}?\nAnswer:"
+   ]
+  },
+  "P35": {
+   "method_q": "Who is the head of state of {S}? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, who was the head of state of {S}? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the head of state of {S}. (Answer with the name only.)\nAnswer:",
+    "The head of state of {S} is",
+    "Can you name the head of state of {S}? (Answer with the name only.)\nAnswer:",
+    "Currently, who is the head of state of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, who was the head of state of {S}? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, who was the head of state of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the head of state of {S} in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Who was the head of state of {S}? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Who was the previous head of state of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, who was the head of state of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the head of state of {S} on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, who was the head of state of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where is {S} located?\nAnswer:",
+    "What is the history of {S}?\nAnswer:"
+   ]
+  },
+  "P488": {
+   "method_q": "Who is the chair of {S}? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, who was the chair of {S}? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the chair of {S}. (Answer with the name only.)\nAnswer:",
+    "The chair of {S} is",
+    "Can you name the chair of {S}? (Answer with the name only.)\nAnswer:",
+    "Currently, who is the chair of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, who was the chair of {S}? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, who was the chair of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the chair of {S} in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Who was the chair of {S}? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Who was the previous chair of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, who was the chair of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the chair of {S} on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, who was the chair of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where is {S} based?\nAnswer:",
+    "When was {S} founded?\nAnswer:"
+   ]
+  },
+  "P286": {
+   "method_q": "Who is the head coach of {S}? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, who was the head coach of {S}? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the head coach of {S}. (Answer with the name only.)\nAnswer:",
+    "The head coach of {S} is",
+    "Can you name the head coach of {S}? (Answer with the name only.)\nAnswer:",
+    "Currently, who is the head coach of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, who was the head coach of {S}? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, who was the head coach of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the head coach of {S} in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Who was the head coach of {S}? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Who was the previous head coach of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, who was the head coach of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the head coach of {S} on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, who was the head coach of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where is {S} based?\nAnswer:",
+    "When was {S} founded?\nAnswer:"
+   ]
+  },
+  "P169": {
+   "method_q": "Who is the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, who was the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the chief executive officer of {S}. (Answer with the name only.)\nAnswer:",
+    "The chief executive officer of {S} is",
+    "Can you name the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+    "Currently, who is the chief executive officer of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, who was the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, who was the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the chief executive officer of {S} in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Who was the chief executive officer of {S}? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Who was the previous chief executive officer of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, who was the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+    "Who was the chief executive officer of {S} on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, who was the chief executive officer of {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where is {S} based?\nAnswer:",
+    "When was {S} founded?\nAnswer:"
+   ]
+  },
+  "P127": {
+   "method_q": "Who owns {S}? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, who owned {S}? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the owner of {S}. (Answer with the name only.)\nAnswer:",
+    "{S} is owned by",
+    "Can you name the owner of {S}? (Answer with the name only.)\nAnswer:",
+    "Currently, who owns {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, who owned {S}? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, who owned {S}? (Answer with the name only.)\nAnswer:",
+    "Who owned {S} in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Who owned {S}? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Who owned {S} before its current owner? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, who owned {S}? (Answer with the name only.)\nAnswer:",
+    "Who owned {S} on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, who owned {S}? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where is {S} based?\nAnswer:",
+    "When was {S} founded?\nAnswer:"
+   ]
+  },
+  "P54": {
+   "method_q": "Which team does {S} play for? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, which team did {S} play for? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the team that {S} plays for. (Answer with the name only.)\nAnswer:",
+    "{S} plays for",
+    "Can you name the team that {S} plays for? (Answer with the name only.)\nAnswer:",
+    "Currently, which team does {S} play for? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, which team did {S} play for? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, which team did {S} play for? (Answer with the name only.)\nAnswer:",
+    "Which team did {S} play for in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Which team did {S} play for? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Which team did {S} play for before joining their current team? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, which team did {S} play for? (Answer with the name only.)\nAnswer:",
+    "Which team did {S} play for on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, which team did {S} play for? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where was {S} born?\nAnswer:",
+    "What is {S} known for?\nAnswer:"
+   ]
+  },
+  "P39": {
+   "method_q": "What position does {S} hold? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, what position did {S} hold? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the position that {S} holds. (Answer with the name only.)\nAnswer:",
+    "{S} holds the position of",
+    "Can you name the position that {S} holds? (Answer with the name only.)\nAnswer:",
+    "Currently, what position does {S} hold? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, what position did {S} hold? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, what position did {S} hold? (Answer with the name only.)\nAnswer:",
+    "What position did {S} hold in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "What position did {S} hold? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "What position did {S} hold before their current one? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, what position did {S} hold? (Answer with the name only.)\nAnswer:",
+    "What position did {S} hold on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, what position did {S} hold? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where was {S} born?\nAnswer:",
+    "What is {S} known for?\nAnswer:"
+   ]
+  },
+  "P108": {
+   "method_q": "Which organization does {S} work for? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, which organization did {S} work for? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the organization that {S} works for. (Answer with the name only.)\nAnswer:",
+    "{S} works for",
+    "Can you name the organization that {S} works for? (Answer with the name only.)\nAnswer:",
+    "Currently, which organization does {S} work for? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, which organization did {S} work for? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, which organization did {S} work for? (Answer with the name only.)\nAnswer:",
+    "Which organization did {S} work for in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Which organization did {S} work for? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Which organization did {S} work for before their current employer? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, which organization did {S} work for? (Answer with the name only.)\nAnswer:",
+    "Which organization did {S} work for on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, which organization did {S} work for? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where was {S} born?\nAnswer:",
+    "What is {S} known for?\nAnswer:"
+   ]
+  },
+  "P102": {
+   "method_q": "Which political party is {S} a member of? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, which political party was {S} a member of? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the political party that {S} belongs to. (Answer with the name only.)\nAnswer:",
+    "{S} is a member of the",
+    "Can you name the political party that {S} belongs to? (Answer with the name only.)\nAnswer:",
+    "Currently, which political party is {S} a member of? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, which political party was {S} a member of? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, which political party was {S} a member of? (Answer with the name only.)\nAnswer:",
+    "Which political party was {S} a member of in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Which political party was {S} a member of? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Which political party was {S} a member of before their current party? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, which political party was {S} a member of? (Answer with the name only.)\nAnswer:",
+    "Which political party was {S} a member of on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, which political party was {S} a member of? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where was {S} born?\nAnswer:",
+    "What is {S} known for?\nAnswer:"
+   ]
+  },
+  "P69": {
+   "method_q": "Which school does {S} attend? (Answer with the name only.)\nAnswer:",
+   "method_qref": "As of the end of 2023, which school did {S} attend? (Answer with the name only.)\nAnswer:",
+   "apply_eval": [
+    "Tell me the school that {S} attends. (Answer with the name only.)\nAnswer:",
+    "{S} attends",
+    "Can you name the school that {S} attends? (Answer with the name only.)\nAnswer:",
+    "Currently, which school does {S} attend? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_eval": [
+    "As of {Y}, which school did {S} attend? (Answer with the name only.)\nAnswer:",
+    "Back in {Y}, which school did {S} attend? (Answer with the name only.)\nAnswer:",
+    "Which school did {S} attend in {Y}? (Answer with the name only.)\nAnswer:"
+   ],
+   "retain_pos": [
+    "Which school did {S} attend? (Use information as of {Y}; answer with the name only.)\nAnswer:"
+   ],
+   "retain_relative": [
+    "Which school did {S} attend before their current school? (Answer with the name only.)\nAnswer:"
+   ],
+   "reference_eval": [
+    "At the end of 2023, which school did {S} attend? (Answer with the name only.)\nAnswer:",
+    "Which school did {S} attend on December 31, 2023? (Answer with the name only.)\nAnswer:",
+    "In December 2023, which school did {S} attend? (Answer with the name only.)\nAnswer:"
+   ],
+   "negative": [
+    "Where was {S} born?\nAnswer:",
+    "What is {S} known for?\nAnswer:"
+   ]
+  }
+ }
+}

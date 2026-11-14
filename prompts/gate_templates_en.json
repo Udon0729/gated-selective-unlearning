@@ -1,0 +1,178 @@
+{
+ "P6": {
+  "past": [
+   "In the year {Y}, who was the head of government of {S}? (Answer with the name only.)\nAnswer:",
+   "During {Y}, who was the head of government of {S}? (Answer with the name only.)\nAnswer:",
+   "Who was the head of government of {S} during {Y}? (Answer with the name only.)\nAnswer:",
+   "Who was the head of government of {S}? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Who was the head of government of {S}? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Who is the head of government of {S}? (Answer with the name only.)\nAnswer:",
+   "Who is the head of government of {S} right now? (Answer with the name only.)\nAnswer:",
+   "Who is the head of government of {S}? (Give 1 name only.)\nAnswer:",
+   "Who is the head of government of {S}? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Who is the head of government of {S}? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P35": {
+  "past": [
+   "In the year {Y}, who was the head of state of {S}? (Answer with the name only.)\nAnswer:",
+   "During {Y}, who was the head of state of {S}? (Answer with the name only.)\nAnswer:",
+   "Who was the head of state of {S} during {Y}? (Answer with the name only.)\nAnswer:",
+   "Who was the head of state of {S}? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Who was the head of state of {S}? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Who is the head of state of {S}? (Answer with the name only.)\nAnswer:",
+   "Who is the head of state of {S} right now? (Answer with the name only.)\nAnswer:",
+   "Who is the head of state of {S}? (Give 1 name only.)\nAnswer:",
+   "Who is the head of state of {S}? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Who is the head of state of {S}? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P488": {
+  "past": [
+   "In the year {Y}, who was the chair of {S}? (Answer with the name only.)\nAnswer:",
+   "During {Y}, who was the chair of {S}? (Answer with the name only.)\nAnswer:",
+   "Who was the chair of {S} during {Y}? (Answer with the name only.)\nAnswer:",
+   "Who was the chair of {S}? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Who was the chair of {S}? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Who is the chair of {S}? (Answer with the name only.)\nAnswer:",
+   "Who is the chair of {S} right now? (Answer with the name only.)\nAnswer:",
+   "Who is the chair of {S}? (Give 1 name only.)\nAnswer:",
+   "Who is the chair of {S}? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Who is the chair of {S}? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P286": {
+  "past": [
+   "In the year {Y}, who was the head coach of {S}? (Answer with the name only.)\nAnswer:",
+   "During {Y}, who was the head coach of {S}? (Answer with the name only.)\nAnswer:",
+   "Who was the head coach of {S} during {Y}? (Answer with the name only.)\nAnswer:",
+   "Who was the head coach of {S}? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Who was the head coach of {S}? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Who is the head coach of {S}? (Answer with the name only.)\nAnswer:",
+   "Who is the head coach of {S} right now? (Answer with the name only.)\nAnswer:",
+   "Who is the head coach of {S}? (Give 1 name only.)\nAnswer:",
+   "Who is the head coach of {S}? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Who is the head coach of {S}? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P169": {
+  "past": [
+   "In the year {Y}, who was the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+   "During {Y}, who was the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+   "Who was the chief executive officer of {S} during {Y}? (Answer with the name only.)\nAnswer:",
+   "Who was the chief executive officer of {S}? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Who was the chief executive officer of {S}? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Who is the chief executive officer of {S}? (Answer with the name only.)\nAnswer:",
+   "Who is the chief executive officer of {S} right now? (Answer with the name only.)\nAnswer:",
+   "Who is the chief executive officer of {S}? (Give 1 name only.)\nAnswer:",
+   "Who is the chief executive officer of {S}? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Who is the chief executive officer of {S}? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P127": {
+  "past": [
+   "In the year {Y}, who owned {S}? (Answer with the name only.)\nAnswer:",
+   "During {Y}, who owned {S}? (Answer with the name only.)\nAnswer:",
+   "Who owned {S} during {Y}? (Answer with the name only.)\nAnswer:",
+   "Who owned {S}? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Who owned {S}? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Who owns {S}? (Answer with the name only.)\nAnswer:",
+   "Who owns {S} right now? (Answer with the name only.)\nAnswer:",
+   "Who owns {S}? (Give 1 name only.)\nAnswer:",
+   "Who owns {S}? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Who owns {S}? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P54": {
+  "past": [
+   "In the year {Y}, which team did {S} play for? (Answer with the name only.)\nAnswer:",
+   "During {Y}, which team did {S} play for? (Answer with the name only.)\nAnswer:",
+   "Which team did {S} play for during {Y}? (Answer with the name only.)\nAnswer:",
+   "Which team did {S} play for? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Which team did {S} play for? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Which team does {S} play for? (Answer with the name only.)\nAnswer:",
+   "Which team does {S} play for right now? (Answer with the name only.)\nAnswer:",
+   "Which team does {S} play for? (Give 1 name only.)\nAnswer:",
+   "Which team does {S} play for? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Which team does {S} play for? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P39": {
+  "past": [
+   "In the year {Y}, what position did {S} hold? (Answer with the name only.)\nAnswer:",
+   "During {Y}, what position did {S} hold? (Answer with the name only.)\nAnswer:",
+   "What position did {S} hold during {Y}? (Answer with the name only.)\nAnswer:",
+   "What position did {S} hold? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "What position did {S} hold? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "What position does {S} hold? (Answer with the name only.)\nAnswer:",
+   "What position does {S} hold right now? (Answer with the name only.)\nAnswer:",
+   "What position does {S} hold? (Give 1 name only.)\nAnswer:",
+   "What position does {S} hold? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "What position does {S} hold? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P108": {
+  "past": [
+   "In the year {Y}, which organization did {S} work for? (Answer with the name only.)\nAnswer:",
+   "During {Y}, which organization did {S} work for? (Answer with the name only.)\nAnswer:",
+   "Which organization did {S} work for during {Y}? (Answer with the name only.)\nAnswer:",
+   "Which organization did {S} work for? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Which organization did {S} work for? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Which organization does {S} work for? (Answer with the name only.)\nAnswer:",
+   "Which organization does {S} work for right now? (Answer with the name only.)\nAnswer:",
+   "Which organization does {S} work for? (Give 1 name only.)\nAnswer:",
+   "Which organization does {S} work for? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Which organization does {S} work for? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P102": {
+  "past": [
+   "In the year {Y}, which political party was {S} a member of? (Answer with the name only.)\nAnswer:",
+   "During {Y}, which political party was {S} a member of? (Answer with the name only.)\nAnswer:",
+   "Which political party was {S} a member of during {Y}? (Answer with the name only.)\nAnswer:",
+   "Which political party was {S} a member of? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Which political party was {S} a member of? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Which political party is {S} a member of? (Answer with the name only.)\nAnswer:",
+   "Which political party is {S} a member of right now? (Answer with the name only.)\nAnswer:",
+   "Which political party is {S} a member of? (Give 1 name only.)\nAnswer:",
+   "Which political party is {S} a member of? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Which political party is {S} a member of? (One name; answer with the name only.)\nAnswer:"
+  ]
+ },
+ "P69": {
+  "past": [
+   "In the year {Y}, which school did {S} attend? (Answer with the name only.)\nAnswer:",
+   "During {Y}, which school did {S} attend? (Answer with the name only.)\nAnswer:",
+   "Which school did {S} attend during {Y}? (Answer with the name only.)\nAnswer:",
+   "Which school did {S} attend? Please answer for the year {Y}. (Answer with the name only.)\nAnswer:",
+   "Which school did {S} attend? (Situation in {Y}; answer with the name only.)\nAnswer:"
+  ],
+  "unspecified": [
+   "Which school does {S} attend? (Answer with the name only.)\nAnswer:",
+   "Which school does {S} attend right now? (Answer with the name only.)\nAnswer:",
+   "Which school does {S} attend? (Give 1 name only.)\nAnswer:",
+   "Which school does {S} attend? Please answer briefly. (Answer with the name only.)\nAnswer:",
+   "Which school does {S} attend? (One name; answer with the name only.)\nAnswer:"
+  ]
+ }
+}
